@@ -1,0 +1,292 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Arima';
+    src: url(font/go3v2.ttf);
+}
+
+.btn-scroll-up button{
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(31, 31, 57);
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+}
+
+.cabecalho{
+    background-color: rgb(100, 100, 186);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cabecalho i{
+    font-size: 40px;
+    border: double black;
+    border-radius: 100px;
+    color: rgb(60, 60, 60);
+}
+
+.cabecalho a:hover{
+    color: aquamarine;
+}
+
+.cabecalho i:hover{
+    color: aqua;
+}
+
+.menu{
+    display: flex;
+    font-size: 25px;
+}
+
+.menu li{
+    margin-left: 20px;
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu a{
+    color: aqua;
+}
+
+.informacoes{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(imagens/Background\ Principal.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 55px;
+}
+
+.informacoes h2{
+    font-size: 30px;
+}
+
+.informacoes img{
+    margin: 50px 0 30px;
+    width: 400px;
+    border: double black;
+    border-radius: 500px;
+}
+
+
+.informacoes p{
+    width: 800px;
+    margin: 20px 0 60px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(56, 56, 56, 0.249);
+}
+
+
+
+
+
+
+.musicas{
+    background-image: url(imagens/Stars-5.jpg);
+    text-align: center;
+    justify-content: center;
+    padding: 70px 0 70px;
+}
+
+.musicas .titulo-musicas{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 90px;
+}
+
+.musicas-pai{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.musica-filha {
+    margin: 20px 50px 60px 50px;
+    background-color: black;
+    width: 250px;
+    height: 375px;
+    background-image: url(imagens/Background\ das\ Músicas.jpg);
+    background-size: cover;
+}
+
+.musica-filha img{
+    width: 100%;
+}
+
+.musica-filha .music{
+    width: 100%;
+    background-color: white;
+}
+
+.musica-filha audio{
+    width: 100%;
+}
+
+.informacoes-da-musica{
+    padding: 100px 30px;
+    background-color: black;
+    color: white;
+    height: 317px;
+    width: 250px;
+    opacity: 0.2;
+}
+
+.musica-filha:hover .informacoes-da-musica{
+    display: block;
+    opacity: 0.7;
+}
+
+.musicas button{
+    padding: 25px 75px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: double rgb(57, 8, 79) 10px;
+    background-color: rgb(10, 10, 44);
+    color: white;
+}
+
+
+
+
+.dedicatoria{
+    border: solid black 5px;
+    display: flex;
+    margin: 200px 50px;
+    background-color: rgb(184, 184, 184);
+    height: auto;
+}
+
+.rip img{
+    width: 400px;
+    height: 335px;
+    filter: saturate(0) brightness(0.9) contrast(1.1);
+}
+
+.rip .idade-kaori{
+    background-color: black;
+    color: white;
+}
+
+.dedicacao {
+    text-align: center;
+    width: 100%;
+}
+
+.dedicacao h2{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.dedicacao p{
+    font-size: 22px;
+    margin: 40px 30px 0;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+
+
+
+@media (max-width: 1090px){
+    .dedicacao p{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1000px){
+    .dedicacao p{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .informacoes p{
+        width: auto;
+        margin: 20px 20px 60px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(56, 56, 56, 0.249);
+    }
+
+    .rip img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .dedicatoria {
+        display: block;
+        height: auto;
+        width: 70%;
+        padding-bottom: 50px;
+    }
+
+    .dedicacao h2{
+        margin-top: 20px;
+    }
+
+    .dedicacao p{
+        font-size: 21px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 550px){
+    
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cabecalho i{
+        margin-bottom: 20px;
+        font-size: 80px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li{
+        margin: 10px;
+    }
+
+    .informacoes img{
+        width: 250px;
+    }
+
+    .musica-filha {
+        margin: 20px 60px;
+        background-color: black;
+        width: 250px;
+        height: 375px;
+        background-image: url(imagens/Background\ das\ Músicas.jpg);
+        background-size: cover;
+    }
+}
