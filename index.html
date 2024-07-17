@@ -37,7 +37,7 @@
 
     <section class="home" id="home">
         <div class="informacoes">
-            
+
             <img src="src/imagens/PERFIL-1.jpg" alt="Arima Kousei" id="sobre-mim">
             <h1>Arima Kousei</h1>
 
@@ -61,37 +61,40 @@
         <div class="musicas-pai">
 
 
-            <div class="musica-filha">
+            <div class="musica-filha ativo">
                 <div class="informacoes-da-musica">
                     <p>ETUDE in E minor Op.23 No.5 'Wrong Note | Chopin'</p>
                 </div>
                 <div class="music">
-                    <audio controls preload="metadata">
-                        <source src="src/musicas/Etude in E minor, Op. 25, No. 5 ''Wrong Note'' - Chopin (Shigatsu Wa Kimi No Uso)+Sheet.mp3">
+                    <audio controls preload="metadata" id="musica-1">
+                        <source
+                            src="src/musicas/Etude in E minor, Op. 25, No. 5 ''Wrong Note'' - Chopin (Shigatsu Wa Kimi No Uso)+Sheet.mp3">
                     </audio>
                 </div>
             </div>
 
 
-            <div class="musica-filha">
+            <div class="musica-filha ativo">
                 <div class="informacoes-da-musica">
                     <p>Ballade in G minor Op.23 no.1 | Chopin</p>
                 </div>
                 <div class="music">
-                    <audio controls preload="metadata" autoplay>
-                        <source src="src/musicas/Chopin's Ballade No. 1 in G minor, Op. 23 - Kousei Arima Last Performance (Shigatsu wa Kimi no Uso).mp3">
+                    <audio controls preload="metadata">
+                        <source
+                            src="src/musicas/Chopin's Ballade No. 1 in G minor, Op. 23 - Kousei Arima Last Performance (Shigatsu wa Kimi no Uso).mp3">
                     </audio>
                 </div>
             </div>
 
 
-            <div class="musica-filha">
+            <div class="musica-filha ativo">
                 <div class="informacoes-da-musica">
                     <p> 'Waltz' from -The Sleeping Beauty | Tchaikovsky</p>
                 </div>
                 <div class="music">
                     <audio controls preload="metadata">
-                        <source src="src/musicas/'Waltz' From Sleeping Beauty - Tchaikovsky from Shigatsu wa Kimi no Uso Soundtrack.mp3">
+                        <source
+                            src="src/musicas/'Waltz' From Sleeping Beauty - Tchaikovsky from Shigatsu wa Kimi no Uso Soundtrack.mp3">
                     </audio>
                 </div>
             </div>
@@ -115,7 +118,8 @@
                 </div>
                 <div class="music">
                     <audio controls preload="metadata">
-                        <source src="src/musicas/Piano Sonata No. 14 (Moonlight) Third Movement - Beethoven from Shigatsu wa Kimi no Uso Soundtrack.mp3">
+                        <source
+                            src="src/musicas/Piano Sonata No. 14 (Moonlight) Third Movement - Beethoven from Shigatsu wa Kimi no Uso Soundtrack.mp3">
                     </audio>
                 </div>
             </div>
@@ -133,9 +137,7 @@
             </div>
 
         </div>
-
-        <button class="btn-mostrar-musicas">Mais músicas</button>
-
+            <button class="btn-mostrar-musicas">Mais músicas</button>
 
 
 
@@ -165,9 +167,35 @@
             </div>
         </div>
     </section>
+
+
+
+
     <footer id="contato">
 
+        <div class="contato">
+            <h2>Fale comigo</h2>
+            <div class="traco"></div>
+
+            <div class="redes-sociais">
+                <ul>
+                    <li><i class="fab fa-whatsapp"></i> <a href="http://wa.me/71992394803" target="_blank">(71)
+                            99239-4803</a></li>
+                    <li><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/victor_mateusu06/"
+                            target="_blank">@victor_mateusu06</a></li>
+                    <li><i class="far fa-envelope"></i> <a href="#contato">victormbs006@gmail.com</a></li>
+                    <li><i class="fab fa-linkedin"></i> <a
+                            href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                            target="_blank">Victor Mateus Borges Silva</a></li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/Victor-Mateus06"
+                            target="_blank">Victor-Mateus06</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
+
+    <script src="src/index.js"></script>
+
 </body>
 
 </html>

@@ -14,7 +14,7 @@ html {
     background-color: rgb(31, 31, 57);
     position: fixed;
     bottom: 50px;
-    left: 20px;
+    right: 30px;
 }
 
 .cabecalho{
@@ -26,14 +26,16 @@ html {
 }
 
 .cabecalho i{
-    font-size: 40px;
+    font-size: 50px;
     border: double black;
     border-radius: 100px;
     color: rgb(60, 60, 60);
+    transition: 0.2;
 }
 
 .cabecalho a:hover{
     color: aquamarine;
+    transition: 0.2;
 }
 
 .cabecalho i:hover{
@@ -160,6 +162,12 @@ h1{
     border: double rgb(57, 8, 79) 10px;
     background-color: rgb(10, 10, 44);
     color: white;
+    cursor: pointer;
+}
+.musicas button:hover{
+    background-color: rgba(7, 7, 29, 0.729);
+    color: black;
+    font-size: 21px;
 }
 
 
@@ -171,6 +179,7 @@ h1{
     margin: 200px 50px;
     background-color: rgb(184, 184, 184);
     height: auto;
+    box-shadow: -40px 40px 50px rgba(0, 0, 24, 0.697);
 }
 
 .rip img{
@@ -199,13 +208,47 @@ h1{
     margin: 40px 30px 0;
 }
 
+
+
+
+
+
 footer{
+    color: white;
     background-color: black;
     width: 100%;
     height: 400px;
+    padding: 20px 0;
 }
 
+.contato h2{
+    font-size: 50px;
+}
 
+.contato{
+    margin-left: 20px;
+}
+
+footer .traco {
+    background-color: white;
+    height: 3px;
+    width: 60%;
+    margin: 10px 0;
+}
+
+footer ul{
+    font-size: 20px;
+    margin: 20px;
+}
+
+footer li{
+    color: green;
+    margin: 10px 0;
+}
+
+footer li:hover{
+    font-size: 25px;
+}
 
 
 
@@ -245,6 +288,7 @@ footer{
         height: auto;
         width: 70%;
         padding-bottom: 50px;
+        margin-bottom: 90px;
     }
 
     .dedicacao h2{
