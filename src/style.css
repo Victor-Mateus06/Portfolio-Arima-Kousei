@@ -239,7 +239,7 @@ footer .traco {
 footer ul{
     font-size: 20px;
     margin: 20px;
-    width: 400px;
+    width: 90%;
 }
 
 footer li{
@@ -254,10 +254,10 @@ footer li:hover{
 
 
 
-@media (max-width: 1090px){
+@media (max-width: 1135px){
     .dedicacao p{
         margin-top: 30px;
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
