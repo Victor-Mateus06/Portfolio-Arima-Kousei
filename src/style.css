@@ -270,6 +270,10 @@ footer li:hover {
 
 @media (max-width: 900px) {
 
+    .informacoes img{
+        width: 250px;
+    }
+
     .informacoes p {
         width: auto;
         margin: 20px 20px 60px;
